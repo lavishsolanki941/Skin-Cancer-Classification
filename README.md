@@ -202,11 +202,11 @@ jupyter notebook notebooks/skin_cancer_classification.ipynb
 
 ## Team
 
-| Name | 
-|---|---|
-| Lavish Solanki 
-| Laksh Johri 
-| Udit Malik 
+Built by:
+
+- Lavish Solanki 
+- Laksh Johri 
+- Udit Malik 
 
 Bennett University, Greater Noida — B.Tech CSE (AI/ML), 2024–2028
 

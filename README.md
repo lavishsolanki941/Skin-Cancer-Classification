@@ -202,7 +202,7 @@ jupyter notebook notebooks/skin_cancer_classification.ipynb
 
 ## Team
 
-| Name | Student ID |
+| Name | 
 |---|---|
 | Lavish Solanki 
 | Laksh Johri 

@@ -61,11 +61,15 @@ This project presents a **classical machine learning approach (non-deep-learning
 | df | Dermatofibroma |
 | vasc | Vascular lesion |
 
-> Note: Due to CPU constraints, ~800 randomly sampled images were used for training and evaluation.
-
 ---
 
 ## Methodology
+
+- Preprocessed dermatoscopic images using OpenCV.
+- Extracted handcrafted image features from resized grayscale images.
+- Split the dataset into training and testing sets.
+- Trained and evaluated Logistic Regression, Random Forest, and SVM models.
+- Compared model performance using Accuracy, Precision, Recall, and F1-score.
 
 ### Pipeline Overview
 
@@ -126,9 +130,9 @@ Comparative performance on ~800-image test set:
 
 | Model | Performance |
 |---|---|
-| SVM (RBF Kernel) | ✅ Highest Accuracy |
+| SVM (RBF Kernel) |  Best Performance |
 | Random Forest (300 trees) | Strong Performance |
-| Logistic Regression | Baseline |
+| Logistic Regression | Baseline Performance |
 
 **Key Finding:** SVM significantly outperformed linear models, confirming that skin lesion features exist in a complex, non-linear space that simple linear boundaries cannot capture effectively.
 
@@ -200,9 +204,9 @@ jupyter notebook notebooks/skin_cancer_classification.ipynb
 
 | Name | Student ID |
 |---|---|
-| Lavish Solanki | S24CSEU0101 |
-| Laksh Johri | S24CSEU0069 |
-| Udit Malik | S24CSEU0099 |
+| Lavish Solanki 
+| Laksh Johri 
+| Udit Malik 
 
 Bennett University, Greater Noida — B.Tech CSE (AI/ML), 2024–2028
 
